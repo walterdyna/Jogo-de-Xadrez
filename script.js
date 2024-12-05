@@ -10,7 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
         dropOffBoard: 'trash',
         sparePieces: true,
         position: 'start',
-        onDrop: onDrop
+        onDrop: onDrop,
+        pieceTheme: '../images/{pawn-white.png}.png' // Atualize o caminho para suas imagens
     });
 
     const stockfish = Stockfish();
